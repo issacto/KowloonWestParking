@@ -2,7 +2,7 @@
     <img alt="Parking" src="./src/images/icon.svg" width="60" />
 </p>
 <h2 align="center">
-  Kowloon West Realtime Carpark Data || 九龍西停車場即時數據 🇭🇰
+  Kowloon West Carpark Realtime Data || 九龍西停車場即時數據 🇭🇰
 </h2>
 
 
@@ -21,7 +21,7 @@ This website provides realtime carpark vacancy data in West Kowloon (Hong Kong)
 
 ### Run
 
-* Use Chrome to run the website (some packages doesnt work well with mac)
+* Use Chrome to run the website (some packages dont work well with mac)
 
 
 

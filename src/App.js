@@ -106,9 +106,9 @@ const IndexPage = () => {
     
     <div style={pageStyles}>
       <div style={headerStyles}>
-        <h1 >九龍西停車場即時數據</h1>
+        <h1 style={{fontSize:"4vh"}} >九龍西停車場即時數據</h1>
         <div >
-        <a href="/" >
+        <a href="https://issacto.github.io/KowloonWestParking" >
           <img style={logoStyles}src={Logo}></img>
           </a>
         </div>
