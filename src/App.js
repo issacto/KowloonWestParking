@@ -6,12 +6,12 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Logo from "./images/icon.svg"
 import LoadingOverlay from 'react-loading-overlay';
+
 // styles
 
 const pageStyles = {
   color: "white",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  
   backgroundColor:"#29323c",
   height:"100%",
   minWidth:"99.5%",
@@ -43,6 +43,7 @@ const container={
   display:"flex",
   flexDirection: 'row',
   border:"5px solid lightseagreen",
+  minHeight:"84vh",
 }
 const logoStyles={
   width:"6vh",
@@ -91,7 +92,7 @@ const IndexPage = () => {
   },[]);
 
   useEffect(() => {
-    setTimeout(() => {setLoading(!loading)},4000);
+    setTimeout(() => {setLoading(!loading)},2500);
     
   }, []);
 
@@ -106,7 +107,7 @@ const IndexPage = () => {
     
     <div style={pageStyles}>
       <div style={headerStyles}>
-        <h1 style={{fontSize:"4vh"}} >九龍西停車場即時數據</h1>
+        <h1 style={{fontSize:"5vh"}} >九龍西停車場即時數據庫🇭🇰</h1>
         <div >
         <a href="https://issacto.github.io/KowloonWestParking" >
           <img style={logoStyles}src={Logo}></img>

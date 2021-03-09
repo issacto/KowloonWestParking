@@ -2,7 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import Collapsible from 'react-collapsible';
 import { useState, useEffect } from 'react';
-
+import ClicklingIcon from "../images/clicking.svg";
+import HomeIcon from "../images/home.svg";
 
 const containerStyles = {
   paddingTop:"1vh",
@@ -16,9 +17,16 @@ const containerStyles = {
 const headerStyles = {
   justifyContent:"center",
   textAlign:"center",
+  paddingTop:"2vh",
   backgroundColor:"#434343 ",
   border:"solid 1px cyan",
   width:"100%",
+  height:"6vh"
+}
+
+const homeButtonStyles={
+  backgroundColor:"#26323c",
+  borderRadius:"50%"
 }
 
 const zoomButtonStyles={
@@ -35,6 +43,7 @@ const buttonStyles={
   fontSize: "2vh",
   padding:"0.8vh"
 }
+
 const boxStyle =(color)=> {
   if(color=="cyan")
   return({
@@ -59,11 +68,13 @@ const boxStyle =(color)=> {
     fontSize:"2.5vh",
     marginBottom:"3vh"})
 }
+
 const titleStyles={
   fontSize:"2.5vh",
   display:"inline",
   
 }
+
 const titleBoxStyles = {
   marginBottom:"4vh"
 }
@@ -97,7 +108,7 @@ const App = props => {
       <div >
           <Collapsible trigger={x}>
             <div style ={boxStyle(color)}>
-            <Collapsible  trigger={<p style={{ marginBottom:"0"}}>{">> "}停車場詳細資料</p>}>
+            <Collapsible  trigger={<div><p style={{ marginBottom:"0",display:"inline"}}>停車場詳細資料</p><img src={ClicklingIcon} width="30vh" style={homeButtonStyles}/></div>}>
               <p>{carpark.nature? "。提供者: " + carpark.nature:null}</p>
               <p>{carpark.type? "。類別: " + carpark.type:null}</p>
               <p>{carpark.openingHours? "。開始時間: " + carpark.openingHours[0].periodStart:null}</p>
@@ -123,7 +134,7 @@ const App = props => {
       <>
       
         <div style={headerStyles}>
-        <h2>參與的停車場</h2>
+        <h2 style={{display:"inline",marginBottom:"0.3vh"}}>停車場 {" "}</h2>
         </div>
         <div style={containerStyles}>
           <ul>
