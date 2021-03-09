@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KowloonWestParking/static/css/main.7d297bc6.chunk.css",
-    "main.js": "/KowloonWestParking/static/js/main.c0ece8a9.chunk.js",
-    "main.js.map": "/KowloonWestParking/static/js/main.c0ece8a9.chunk.js.map",
+    "main.js": "/KowloonWestParking/static/js/main.c7612aee.chunk.js",
+    "main.js.map": "/KowloonWestParking/static/js/main.c7612aee.chunk.js.map",
     "runtime-main.js": "/KowloonWestParking/static/js/runtime-main.c8931987.js",
     "runtime-main.js.map": "/KowloonWestParking/static/js/runtime-main.c8931987.js.map",
     "static/css/2.c1e28d34.chunk.css": "/KowloonWestParking/static/css/2.c1e28d34.chunk.css",
@@ -14,6 +14,8 @@
     "static/css/2.c1e28d34.chunk.css.map": "/KowloonWestParking/static/css/2.c1e28d34.chunk.css.map",
     "static/css/main.7d297bc6.chunk.css.map": "/KowloonWestParking/static/css/main.7d297bc6.chunk.css.map",
     "static/js/2.07271a63.chunk.js.LICENSE.txt": "/KowloonWestParking/static/js/2.07271a63.chunk.js.LICENSE.txt",
+    "static/media/clicking.f03a1f91.svg": "/KowloonWestParking/static/media/clicking.f03a1f91.svg",
+    "static/media/home.b0189fdb.svg": "/KowloonWestParking/static/media/home.b0189fdb.svg",
     "static/media/icon.dbbd9805.svg": "/KowloonWestParking/static/media/icon.dbbd9805.svg"
   },
   "entrypoints": [
@@ -21,6 +23,6 @@
     "static/css/2.c1e28d34.chunk.css",
     "static/js/2.07271a63.chunk.js",
     "static/css/main.7d297bc6.chunk.css",
-    "static/js/main.c0ece8a9.chunk.js"
+    "static/js/main.c7612aee.chunk.js"
   ]
 }
