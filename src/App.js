@@ -43,7 +43,7 @@ const container={
   display:"flex",
   flexDirection: 'row',
   border:"5px solid lightseagreen",
-  minHeight:"84vh",
+  minHeight:"80vh",
 }
 const logoStyles={
   width:"6vh",
