@@ -79,6 +79,7 @@ const IndexPage = () => {
 
 
   useEffect( () => {
+    async function fetchData() {
     const result = await axios(
       'https://sps-opendata.pilotsmartke.gov.hk/rest/getCarparkVacancies',
     );
@@ -89,6 +90,8 @@ const IndexPage = () => {
     setDetailsMap(map.data.results)
     setData(result.data);
     changeLoad(true)
+    }
+    fetchData()
   },[]);
 
   useEffect(() => {
