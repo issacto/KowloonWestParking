@@ -78,7 +78,7 @@ const IndexPage = () => {
   let [loading, setLoading] = useState(true);
 
 
-  useEffect(async () => {
+  useEffect( () => {
     const result = await axios(
       'https://sps-opendata.pilotsmartke.gov.hk/rest/getCarparkVacancies',
     );
